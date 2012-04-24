@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+<duplication lines="37" tokens="109">
+<file line="72" path="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.4-deploy/apis/openstack-nova/src/main/java/org/jclouds/openstack/nova/v1_1/domain/Flavor.java"/>
+<file line="149" path="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.4-deploy/apis/openstack-nova/src/main/java/org/jclouds/openstack/nova/v1_1/domain/Image.java"/>
+<codefragment>
+<![CDATA[
+                  in.getProgress()).server(in.getServer()).metadata(in.getMetadata());
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder id(String id) {
+         return Builder.class.cast(super.id(id));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder name(String name) {
+         return Builder.class.cast(super.name(name));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder links(Set<Link> links) {
+         return Builder.class.cast(super.links(links));
+      }
+
+      /**
+       * {@inheritDoc}
+       */
+      @Override
+      public Builder fromResource(Resource in) {
+         return Builder.class.cast(super.fromResource(in));
+      }
+   }
+
+   private final Date updated;
+]]>
+</codefragment>
+</duplication>
+</pmd-cpd>
