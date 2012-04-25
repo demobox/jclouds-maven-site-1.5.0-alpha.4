@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Tue Apr 24 09:00:19 EDT 2012 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Tue Apr 24 18:25:31 EDT 2012 -->
 
 <report>
   <stats>
@@ -11,9 +11,9 @@
   <data>
     <all name="all classes">
       <coverage type="class, %" value="87%  (386/446)"/>
-      <coverage type="method, %" value="58%  (2093/3581)"/>
-      <coverage type="block, %" value="61%  (30506/49607)"/>
-      <coverage type="line, %" value="56%  (4883.7/8716)"/>
+      <coverage type="method, %" value="58%  (2091/3581)"/>
+      <coverage type="block, %" value="61%  (30434/49607)"/>
+      <coverage type="line, %" value="56%  (4868.4/8716)"/>
 
       <package name="org.jclouds.cloudstack.util">
         <coverage type="class, %" value="50%  (1/2)"/>
@@ -555,9 +555,9 @@
       </package>
       <package name="org.jclouds.cloudstack.domain">
         <coverage type="class, %" value="81%  (120/148)"/>
-        <coverage type="method, %" value="52%  (1023/1984)"/>
-        <coverage type="block, %" value="58%  (19054/32673)"/>
-        <coverage type="line, %" value="51%  (2898.8/5723)"/>
+        <coverage type="method, %" value="51%  (1021/1984)"/>
+        <coverage type="block, %" value="58%  (18982/32673)"/>
+        <coverage type="line, %" value="50%  (2883.6/5723)"/>
 
         <srcfile name="Event.java">
           <coverage type="class, %" value="0%   (0/2)"/>
@@ -4114,6 +4114,192 @@
             </method>
           </class>
         </srcfile>
+        <srcfile name="NetworkOffering.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="52%  (17/33)"/>
+          <coverage type="block, %" value="58%  (328/564)"/>
+          <coverage type="line, %" value="44%  (52/118)"/>
+
+          <class name="NetworkOffering">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="37%  (7/19)"/>
+            <coverage type="block, %" value="55%  (254/466)"/>
+            <coverage type="line, %" value="36%  (33/91)"/>
+
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/146)"/>
+              <coverage type="line, %" value="0%   (0/46)"/>
+            </method>
+            <method name="getAvailability (): NetworkOfferingAvailabilityType">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getCreated (): Date">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getDisplayText (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getGuestIPType (): GuestIPType">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getMaxConnections (): Integer">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getName (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getNetworkRate (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getTags (): Set">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getTrafficType (): TrafficType">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="isDefault (): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="supportsVLAN (): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="85%  (112/132)"/>
+              <coverage type="line, %" value="93%  (12/13)"/>
+            </method>
+            <method name="NetworkOffering (long, String, String, Date, NetworkOfferingAvailabilityType, boolean, Integer, boolean, TrafficType, GuestIPType, int, Set): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="92%  (46/50)"/>
+              <coverage type="line, %" value="99%  (14.9/15)"/>
+            </method>
+            <method name="NetworkOffering (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="builder (): NetworkOffering$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="compareTo (NetworkOffering): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getId (): long">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (73/73)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="NetworkOffering$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="71%  (10/14)"/>
+            <coverage type="block, %" value="76%  (74/98)"/>
+            <coverage type="line, %" value="70%  (19/27)"/>
+
+            <method name="created (Date): NetworkOffering$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="guestIPType (GuestIPType): NetworkOffering$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="maxConnections (Integer): NetworkOffering$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="tags (Set): NetworkOffering$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="NetworkOffering$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="availability (NetworkOfferingAvailabilityType): NetworkOffering$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="build (): NetworkOffering">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (28/28)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="displayText (String): NetworkOffering$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="id (long): NetworkOffering$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="isDefault (boolean): NetworkOffering$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="name (String): NetworkOffering$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="networkRate (int): NetworkOffering$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="supportsVLAN (boolean): NetworkOffering$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="trafficType (TrafficType): NetworkOffering$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
         <srcfile name="NIC.java">
           <coverage type="class, %" value="100% (2/2)"/>
           <coverage type="method, %" value="53%  (16/30)"/>
@@ -5317,192 +5503,6 @@
             </method>
           </class>
         </srcfile>
-        <srcfile name="NetworkOffering.java">
-          <coverage type="class, %" value="100% (2/2)"/>
-          <coverage type="method, %" value="55%  (18/33)"/>
-          <coverage type="block, %" value="65%  (367/564)"/>
-          <coverage type="line, %" value="53%  (63/118)"/>
-
-          <class name="NetworkOffering">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="42%  (8/19)"/>
-            <coverage type="block, %" value="63%  (293/466)"/>
-            <coverage type="line, %" value="48%  (44/91)"/>
-
-            <method name="getAvailability (): NetworkOfferingAvailabilityType">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getCreated (): Date">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getDisplayText (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getGuestIPType (): GuestIPType">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getMaxConnections (): Integer">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getName (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getNetworkRate (): int">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getTags (): Set">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/12)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getTrafficType (): TrafficType">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="isDefault (): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="supportsVLAN (): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="equals (Object): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="27%  (39/146)"/>
-              <coverage type="line, %" value="24%  (11/46)"/>
-            </method>
-            <method name="hashCode (): int">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="85%  (112/132)"/>
-              <coverage type="line, %" value="93%  (12/13)"/>
-            </method>
-            <method name="NetworkOffering (long, String, String, Date, NetworkOfferingAvailabilityType, boolean, Integer, boolean, TrafficType, GuestIPType, int, Set): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="92%  (46/50)"/>
-              <coverage type="line, %" value="99%  (14.9/15)"/>
-            </method>
-            <method name="NetworkOffering (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (6/6)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
-            </method>
-            <method name="builder (): NetworkOffering$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (4/4)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="compareTo (NetworkOffering): int">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (10/10)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getId (): long">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (73/73)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-          <class name="NetworkOffering$Builder">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="71%  (10/14)"/>
-            <coverage type="block, %" value="76%  (74/98)"/>
-            <coverage type="line, %" value="70%  (19/27)"/>
-
-            <method name="created (Date): NetworkOffering$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="guestIPType (GuestIPType): NetworkOffering$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="maxConnections (Integer): NetworkOffering$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="tags (Set): NetworkOffering$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/9)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="NetworkOffering$Builder (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (6/6)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="availability (NetworkOfferingAvailabilityType): NetworkOffering$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="build (): NetworkOffering">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (28/28)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="displayText (String): NetworkOffering$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="id (long): NetworkOffering$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="isDefault (boolean): NetworkOffering$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="name (String): NetworkOffering$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="networkRate (int): NetworkOffering$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="supportsVLAN (boolean): NetworkOffering$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="trafficType (TrafficType): NetworkOffering$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-          </class>
-        </srcfile>
         <srcfile name="Template.java">
           <coverage type="class, %" value="100% (4/4)"/>
           <coverage type="method, %" value="54%  (45/83)"/>
@@ -6572,14 +6572,14 @@
         <srcfile name="Zone.java">
           <coverage type="class, %" value="100% (2/2)"/>
           <coverage type="method, %" value="56%  (22/39)"/>
-          <coverage type="block, %" value="70%  (620/891)"/>
-          <coverage type="line, %" value="58%  (101.2/175)"/>
+          <coverage type="block, %" value="70%  (622/891)"/>
+          <coverage type="line, %" value="58%  (102.2/175)"/>
 
           <class name="Zone">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="50%  (11/22)"/>
-            <coverage type="block, %" value="68%  (524/765)"/>
-            <coverage type="line, %" value="56%  (79.2/141)"/>
+            <coverage type="block, %" value="69%  (526/765)"/>
+            <coverage type="line, %" value="57%  (80.2/141)"/>
 
             <method name="getAllocationState (): AllocationState">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -6638,8 +6638,8 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="54%  (128/236)"/>
-              <coverage type="line, %" value="47%  (35/74)"/>
+              <coverage type="block, %" value="55%  (130/236)"/>
+              <coverage type="line, %" value="49%  (36/74)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -7960,6 +7960,211 @@
             </method>
           </class>
         </srcfile>
+        <srcfile name="Capacity.java">
+          <coverage type="class, %" value="100% (4/4)"/>
+          <coverage type="method, %" value="71%  (24/34)"/>
+          <coverage type="block, %" value="77%  (464/606)"/>
+          <coverage type="line, %" value="76%  (68.6/90)"/>
+
+          <class name="Capacity">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="40%  (6/15)"/>
+            <coverage type="block, %" value="62%  (226/362)"/>
+            <coverage type="line, %" value="58%  (29.7/51)"/>
+
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/96)"/>
+              <coverage type="line, %" value="0%   (0/12)"/>
+            </method>
+            <method name="getCapacityTotal (): long">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getCapacityUsed (): long">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getPercentUsed (): double">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getPodId (): long">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getPodName (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getType (): Capacity$Type">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getZoneId (): long">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getZoneName (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="compareTo (Capacity): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="65%  (22/34)"/>
+              <coverage type="line, %" value="77%  (3.8/5)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="96%  (107/111)"/>
+              <coverage type="line, %" value="99%  (9.9/10)"/>
+            </method>
+            <method name="Capacity (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="Capacity (long, long, double, long, String, Capacity$Type, long, String): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (33/33)"/>
+              <coverage type="line, %" value="100% (12/12)"/>
+            </method>
+            <method name="builder (): Capacity$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (51/51)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="Capacity$Type">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="86%  (6/7)"/>
+            <coverage type="block, %" value="97%  (168/174)"/>
+            <coverage type="line, %" value="99%  (18.9/19)"/>
+
+            <method name="valueOf (String): Capacity$Type">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="fromValue (String): Capacity$Type">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="95%  (18/19)"/>
+              <coverage type="line, %" value="97%  (1.9/2)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (132/132)"/>
+              <coverage type="line, %" value="100% (13/13)"/>
+            </method>
+            <method name="Capacity$Type (String, int, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="access$000 (Capacity$Type): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="values (): Capacity$Type []">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="Capacity$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (10/10)"/>
+            <coverage type="block, %" value="100% (63/63)"/>
+            <coverage type="line, %" value="100% (18/18)"/>
+
+            <method name="Capacity$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="build (): Capacity">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (20/20)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="capacityTotal (long): Capacity$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="capacityUsed (long): Capacity$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="percentUsed (double): Capacity$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="podId (long): Capacity$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="podName (String): Capacity$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="type (Capacity$Type): Capacity$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="zoneId (long): Capacity$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="zoneName (String): Capacity$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+          <class name="Capacity$Type$1">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (2/2)"/>
+            <coverage type="block, %" value="100% (7/7)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
+
+            <method name="Capacity$Type$1 (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="apply (Capacity$Type): Integer">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
         <srcfile name="PublicIPAddress.java">
           <coverage type="class, %" value="100% (3/3)"/>
           <coverage type="method, %" value="63%  (36/57)"/>
@@ -8746,173 +8951,6 @@
             </method>
           </class>
         </srcfile>
-        <srcfile name="Pod.java">
-          <coverage type="class, %" value="67%  (2/3)"/>
-          <coverage type="method, %" value="68%  (19/28)"/>
-          <coverage type="block, %" value="82%  (377/457)"/>
-          <coverage type="line, %" value="81%  (54.9/68)"/>
-
-          <class name="Pod">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="44%  (7/16)"/>
-            <coverage type="block, %" value="79%  (304/384)"/>
-            <coverage type="line, %" value="72%  (33.9/47)"/>
-
-            <method name="getAllocationState (): AllocationState">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getEndIp (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getGateway (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getId (): long">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getName (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getNetmask (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getStartIp (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getZoneId (): long">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getZoneName (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="equals (Object): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="65%  (86/132)"/>
-              <coverage type="line, %" value="71%  (9.2/13)"/>
-            </method>
-            <method name="hashCode (): int">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="94%  (108/115)"/>
-              <coverage type="line, %" value="97%  (9.7/10)"/>
-            </method>
-            <method name="Pod (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="Pod (long, String, long, String, String, String, String, String, AllocationState): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (30/30)"/>
-              <coverage type="line, %" value="100% (11/11)"/>
-            </method>
-            <method name="builder (): Pod$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="compareTo (Pod): int">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (8/8)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (64/64)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-          <class name="Pod$1">
-            <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="100% (0/0)"/>
-            <coverage type="block, %" value="100% (0/0)"/>
-            <coverage type="line, %" value="100% (0/0)"/>
-          </class>
-          <class name="Pod$Builder">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (12/12)"/>
-            <coverage type="block, %" value="100% (73/73)"/>
-            <coverage type="line, %" value="100% (21/21)"/>
-
-            <method name="Pod$Builder (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="Pod$Builder (Pod$1): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="allocationState (AllocationState): Pod$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="build (): Pod">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (22/22)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="endIp (String): Pod$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="gateway (String): Pod$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="id (long): Pod$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="name (String): Pod$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="netmask (String): Pod$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="startIp (String): Pod$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="zoneId (long): Pod$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="zoneName (String): Pod$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-          </class>
-        </srcfile>
         <srcfile name="ConfigurationEntry.java">
           <coverage type="class, %" value="100% (2/2)"/>
           <coverage type="method, %" value="82%  (14/17)"/>
@@ -9019,44 +9057,49 @@
             </method>
           </class>
         </srcfile>
-        <srcfile name="Capacity.java">
-          <coverage type="class, %" value="100% (4/4)"/>
-          <coverage type="method, %" value="74%  (25/34)"/>
-          <coverage type="block, %" value="83%  (503/606)"/>
-          <coverage type="line, %" value="83%  (74.3/90)"/>
+        <srcfile name="Pod.java">
+          <coverage type="class, %" value="67%  (2/3)"/>
+          <coverage type="method, %" value="68%  (19/28)"/>
+          <coverage type="block, %" value="83%  (379/457)"/>
+          <coverage type="line, %" value="81%  (55.1/68)"/>
 
-          <class name="Capacity">
+          <class name="Pod">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="47%  (7/15)"/>
-            <coverage type="block, %" value="73%  (265/362)"/>
-            <coverage type="line, %" value="69%  (35.4/51)"/>
+            <coverage type="method, %" value="44%  (7/16)"/>
+            <coverage type="block, %" value="80%  (306/384)"/>
+            <coverage type="line, %" value="73%  (34.1/47)"/>
 
-            <method name="getCapacityTotal (): long">
+            <method name="getAllocationState (): AllocationState">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/3)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
-            <method name="getCapacityUsed (): long">
+            <method name="getEndIp (): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/3)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
-            <method name="getPercentUsed (): double">
+            <method name="getGateway (): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/3)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
-            <method name="getPodId (): long">
+            <method name="getId (): long">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/3)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
-            <method name="getPodName (): String">
+            <method name="getName (): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/3)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
-            <method name="getType (): Capacity$Type">
+            <method name="getNetmask (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getStartIp (): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/3)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
@@ -9073,154 +9116,111 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="41%  (39/96)"/>
-              <coverage type="line, %" value="47%  (5.7/12)"/>
-            </method>
-            <method name="compareTo (Capacity): int">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="65%  (22/34)"/>
-              <coverage type="line, %" value="77%  (3.8/5)"/>
+              <coverage type="block, %" value="67%  (88/132)"/>
+              <coverage type="line, %" value="73%  (9.4/13)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="96%  (107/111)"/>
-              <coverage type="line, %" value="99%  (9.9/10)"/>
+              <coverage type="block, %" value="94%  (108/115)"/>
+              <coverage type="line, %" value="97%  (9.7/10)"/>
             </method>
-            <method name="Capacity (): void">
+            <method name="Pod (): void">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (9/9)"/>
-              <coverage type="line, %" value="100% (4/4)"/>
-            </method>
-            <method name="Capacity (long, long, double, long, String, Capacity$Type, long, String): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (33/33)"/>
-              <coverage type="line, %" value="100% (12/12)"/>
-            </method>
-            <method name="builder (): Capacity$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
-            <method name="toString (): String">
+            <method name="Pod (long, String, long, String, String, String, String, String, AllocationState): void">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (51/51)"/>
+              <coverage type="block, %" value="100% (30/30)"/>
+              <coverage type="line, %" value="100% (11/11)"/>
+            </method>
+            <method name="builder (): Pod$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
-          </class>
-          <class name="Capacity$Type">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="86%  (6/7)"/>
-            <coverage type="block, %" value="97%  (168/174)"/>
-            <coverage type="line, %" value="99%  (18.9/19)"/>
-
-            <method name="valueOf (String): Capacity$Type">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="fromValue (String): Capacity$Type">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="95%  (18/19)"/>
-              <coverage type="line, %" value="97%  (1.9/2)"/>
-            </method>
-            <method name="&lt;static initializer&gt;">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (132/132)"/>
-              <coverage type="line, %" value="100% (13/13)"/>
-            </method>
-            <method name="Capacity$Type (String, int, int): void">
+            <method name="compareTo (Pod): int">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (8/8)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
-            </method>
-            <method name="access$000 (Capacity$Type): int">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="toString (): String">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="values (): Capacity$Type []">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="block, %" value="100% (64/64)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
           </class>
-          <class name="Capacity$Builder">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (10/10)"/>
-            <coverage type="block, %" value="100% (63/63)"/>
-            <coverage type="line, %" value="100% (18/18)"/>
-
-            <method name="Capacity$Builder (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="build (): Capacity">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (20/20)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="capacityTotal (long): Capacity$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="capacityUsed (long): Capacity$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="percentUsed (double): Capacity$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="podId (long): Capacity$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="podName (String): Capacity$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="type (Capacity$Type): Capacity$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="zoneId (long): Capacity$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="zoneName (String): Capacity$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
+          <class name="Pod$1">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="100% (0/0)"/>
+            <coverage type="block, %" value="100% (0/0)"/>
+            <coverage type="line, %" value="100% (0/0)"/>
           </class>
-          <class name="Capacity$Type$1">
+          <class name="Pod$Builder">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (2/2)"/>
-            <coverage type="block, %" value="100% (7/7)"/>
-            <coverage type="line, %" value="100% (2/2)"/>
+            <coverage type="method, %" value="100% (12/12)"/>
+            <coverage type="block, %" value="100% (73/73)"/>
+            <coverage type="line, %" value="100% (21/21)"/>
 
-            <method name="Capacity$Type$1 (): void">
+            <method name="Pod$Builder (): void">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (3/3)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
-            <method name="apply (Capacity$Type): Integer">
+            <method name="Pod$Builder (Pod$1): void">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
               <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="allocationState (AllocationState): Pod$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="build (): Pod">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (22/22)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="endIp (String): Pod$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="gateway (String): Pod$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="id (long): Pod$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="name (String): Pod$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="netmask (String): Pod$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="startIp (String): Pod$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="zoneId (long): Pod$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="zoneName (String): Pod$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
             </method>
           </class>
         </srcfile>
@@ -9807,241 +9807,6 @@
             </method>
           </class>
         </srcfile>
-        <srcfile name="FirewallRule.java">
-          <coverage type="class, %" value="100% (4/4)"/>
-          <coverage type="method, %" value="78%  (31/40)"/>
-          <coverage type="block, %" value="84%  (533/632)"/>
-          <coverage type="line, %" value="75%  (73.8/98)"/>
-
-          <class name="FirewallRule">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="44%  (7/16)"/>
-            <coverage type="block, %" value="77%  (311/404)"/>
-            <coverage type="line, %" value="65%  (36.8/57)"/>
-
-            <method name="getCIDRs (): Set">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getEndPort (): int">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getIcmpCode (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getIcmpType (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getIpAddress (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getIpAddressId (): long">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getProtocol (): FirewallRule$Protocol">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getStartPort (): int">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getState (): FirewallRule$State">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="equals (Object): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="61%  (85/139)"/>
-              <coverage type="line, %" value="49%  (10.3/21)"/>
-            </method>
-            <method name="hashCode (): int">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="90%  (104/116)"/>
-              <coverage type="line, %" value="96%  (10.5/11)"/>
-            </method>
-            <method name="FirewallRule (long, Set, int, int, String, String, String, long, FirewallRule$Protocol, FirewallRule$State): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (34/34)"/>
-              <coverage type="line, %" value="100% (12/12)"/>
-            </method>
-            <method name="builder (): FirewallRule$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (4/4)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="compareTo (FirewallRule): int">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (10/10)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getId (): long">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (71/71)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-          <class name="FirewallRule$Protocol">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (6/6)"/>
-            <coverage type="block, %" value="96%  (66/69)"/>
-            <coverage type="line, %" value="78%  (7/9)"/>
-
-            <method name="fromValue (String): FirewallRule$Protocol">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="57%  (4/7)"/>
-              <coverage type="line, %" value="33%  (1/3)"/>
-            </method>
-            <method name="&lt;static initializer&gt;">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (44/44)"/>
-              <coverage type="line, %" value="100% (5/5)"/>
-            </method>
-            <method name="FirewallRule$Protocol (String, int): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (4/4)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="valueOf (String): FirewallRule$Protocol">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="values (): FirewallRule$Protocol []">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (4/4)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-          <class name="FirewallRule$State">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (6/6)"/>
-            <coverage type="block, %" value="96%  (78/81)"/>
-            <coverage type="line, %" value="80%  (8/10)"/>
-
-            <method name="fromValue (String): FirewallRule$State">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="57%  (4/7)"/>
-              <coverage type="line, %" value="33%  (1/3)"/>
-            </method>
-            <method name="&lt;static initializer&gt;">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (54/54)"/>
-              <coverage type="line, %" value="100% (6/6)"/>
-            </method>
-            <method name="FirewallRule$State (String, int): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (6/6)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="valueOf (String): FirewallRule$State">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="values (): FirewallRule$State []">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (4/4)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-          <class name="FirewallRule$Builder">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="100% (12/12)"/>
-            <coverage type="block, %" value="100% (78/78)"/>
-            <coverage type="line, %" value="100% (22/22)"/>
-
-            <method name="CIDRs (Set): FirewallRule$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (6/6)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="FirewallRule$Builder (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="build (): FirewallRule">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (24/24)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="endPort (int): FirewallRule$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="icmpCode (String): FirewallRule$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="icmpType (String): FirewallRule$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="id (long): FirewallRule$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="ipAddress (String): FirewallRule$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="ipAddressId (long): FirewallRule$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="protocol (FirewallRule$Protocol): FirewallRule$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="startPort (int): FirewallRule$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="state (FirewallRule$State): FirewallRule$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-          </class>
-        </srcfile>
         <srcfile name="PortForwardingRule.java">
           <coverage type="class, %" value="100% (4/4)"/>
           <coverage type="method, %" value="76%  (35/46)"/>
@@ -10301,6 +10066,241 @@
               <coverage type="line, %" value="100% (2/2)"/>
             </method>
             <method name="virtualMachineName (String): PortForwardingRule$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="FirewallRule.java">
+          <coverage type="class, %" value="100% (4/4)"/>
+          <coverage type="method, %" value="78%  (31/40)"/>
+          <coverage type="block, %" value="85%  (537/632)"/>
+          <coverage type="line, %" value="76%  (74.3/98)"/>
+
+          <class name="FirewallRule">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="44%  (7/16)"/>
+            <coverage type="block, %" value="78%  (315/404)"/>
+            <coverage type="line, %" value="65%  (37.3/57)"/>
+
+            <method name="getCIDRs (): Set">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getEndPort (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getIcmpCode (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getIcmpType (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getIpAddress (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getIpAddressId (): long">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getProtocol (): FirewallRule$Protocol">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getStartPort (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getState (): FirewallRule$State">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="64%  (89/139)"/>
+              <coverage type="line, %" value="51%  (10.8/21)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="90%  (104/116)"/>
+              <coverage type="line, %" value="96%  (10.5/11)"/>
+            </method>
+            <method name="FirewallRule (long, Set, int, int, String, String, String, long, FirewallRule$Protocol, FirewallRule$State): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (34/34)"/>
+              <coverage type="line, %" value="100% (12/12)"/>
+            </method>
+            <method name="builder (): FirewallRule$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="compareTo (FirewallRule): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getId (): long">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (71/71)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="FirewallRule$Protocol">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (6/6)"/>
+            <coverage type="block, %" value="96%  (66/69)"/>
+            <coverage type="line, %" value="78%  (7/9)"/>
+
+            <method name="fromValue (String): FirewallRule$Protocol">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="57%  (4/7)"/>
+              <coverage type="line, %" value="33%  (1/3)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (44/44)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
+            </method>
+            <method name="FirewallRule$Protocol (String, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="valueOf (String): FirewallRule$Protocol">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="values (): FirewallRule$Protocol []">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="FirewallRule$State">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (6/6)"/>
+            <coverage type="block, %" value="96%  (78/81)"/>
+            <coverage type="line, %" value="80%  (8/10)"/>
+
+            <method name="fromValue (String): FirewallRule$State">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="57%  (4/7)"/>
+              <coverage type="line, %" value="33%  (1/3)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (54/54)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
+            </method>
+            <method name="FirewallRule$State (String, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="valueOf (String): FirewallRule$State">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="values (): FirewallRule$State []">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="FirewallRule$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (12/12)"/>
+            <coverage type="block, %" value="100% (78/78)"/>
+            <coverage type="line, %" value="100% (22/22)"/>
+
+            <method name="CIDRs (Set): FirewallRule$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="FirewallRule$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="build (): FirewallRule">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (24/24)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="endPort (int): FirewallRule$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="icmpCode (String): FirewallRule$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="icmpType (String): FirewallRule$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="id (long): FirewallRule$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="ipAddress (String): FirewallRule$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="ipAddressId (long): FirewallRule$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="protocol (FirewallRule$Protocol): FirewallRule$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="startPort (int): FirewallRule$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="state (FirewallRule$State): FirewallRule$Builder">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (5/5)"/>
               <coverage type="line, %" value="100% (2/2)"/>
@@ -10907,14 +10907,14 @@
         <srcfile name="Cluster.java">
           <coverage type="class, %" value="100% (3/3)"/>
           <coverage type="method, %" value="71%  (25/35)"/>
-          <coverage type="block, %" value="86%  (477/555)"/>
-          <coverage type="line, %" value="81%  (67.1/83)"/>
+          <coverage type="block, %" value="86%  (475/555)"/>
+          <coverage type="line, %" value="81%  (66.9/83)"/>
 
           <class name="Cluster">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="41%  (7/17)"/>
-            <coverage type="block, %" value="81%  (320/395)"/>
-            <coverage type="line, %" value="73%  (37.1/51)"/>
+            <coverage type="block, %" value="81%  (318/395)"/>
+            <coverage type="line, %" value="72%  (36.9/51)"/>
 
             <method name="getAllocationState (): AllocationState">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -10968,8 +10968,8 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="69%  (86/124)"/>
-              <coverage type="line, %" value="74%  (10.4/14)"/>
+              <coverage type="block, %" value="68%  (84/124)"/>
+              <coverage type="line, %" value="73%  (10.2/14)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
