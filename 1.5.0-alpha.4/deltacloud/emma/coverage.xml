@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Tue Apr 24 09:00:19 EDT 2012 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Tue Apr 24 18:25:31 EDT 2012 -->
 
 <report>
   <stats>
@@ -12,8 +12,8 @@
     <all name="all classes">
       <coverage type="class, %" value="89%  (58/65)"/>
       <coverage type="method, %" value="58%  (166/284)"/>
-      <coverage type="block, %" value="65%  (3725/5768)"/>
-      <coverage type="line, %" value="63%  (725.3/1149)"/>
+      <coverage type="block, %" value="65%  (3727/5768)"/>
+      <coverage type="line, %" value="63%  (726.3/1149)"/>
 
       <package name="org.jclouds.deltacloud.functions">
         <coverage type="class, %" value="100% (1/1)"/>
@@ -638,20 +638,20 @@
       <package name="org.jclouds.deltacloud.domain.internal">
         <coverage type="class, %" value="100% (1/1)"/>
         <coverage type="method, %" value="38%  (3/8)"/>
-        <coverage type="block, %" value="63%  (125/199)"/>
-        <coverage type="line, %" value="60%  (25.6/43)"/>
+        <coverage type="block, %" value="64%  (127/199)"/>
+        <coverage type="line, %" value="62%  (26.6/43)"/>
 
         <srcfile name="BaseHardwareProperty.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="38%  (3/8)"/>
-          <coverage type="block, %" value="63%  (125/199)"/>
-          <coverage type="line, %" value="60%  (25.6/43)"/>
+          <coverage type="block, %" value="64%  (127/199)"/>
+          <coverage type="line, %" value="62%  (26.6/43)"/>
 
           <class name="BaseHardwareProperty">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="38%  (3/8)"/>
-            <coverage type="block, %" value="63%  (125/199)"/>
-            <coverage type="line, %" value="60%  (25.6/43)"/>
+            <coverage type="block, %" value="64%  (127/199)"/>
+            <coverage type="line, %" value="62%  (26.6/43)"/>
 
             <method name="getKind (): HardwareProperty$Kind">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -680,8 +680,8 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="64%  (49/76)"/>
-              <coverage type="line, %" value="52%  (13/25)"/>
+              <coverage type="block, %" value="67%  (51/76)"/>
+              <coverage type="line, %" value="56%  (14/25)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
