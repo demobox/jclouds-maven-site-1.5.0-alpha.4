@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Tue Apr 24 09:00:19 EDT 2012 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Tue Apr 24 18:25:31 EDT 2012 -->
 
 <report>
   <stats>
@@ -12,8 +12,8 @@
     <all name="all classes">
       <coverage type="class, %" value="83%  (89/107)"/>
       <coverage type="method, %" value="64%  (437/686)"/>
-      <coverage type="block, %" value="66%  (7813/11825)"/>
-      <coverage type="line, %" value="66%  (1468/2231)"/>
+      <coverage type="block, %" value="66%  (7811/11825)"/>
+      <coverage type="line, %" value="66%  (1467/2231)"/>
 
       <package name="org.jclouds.aws.ec2.compute.internal">
         <coverage type="class, %" value="0%   (0/1)"/>
@@ -1526,8 +1526,8 @@
       <package name="org.jclouds.aws.ec2.domain">
         <coverage type="class, %" value="88%  (14/16)"/>
         <coverage type="method, %" value="69%  (146/212)"/>
-        <coverage type="block, %" value="74%  (2678/3633)"/>
-        <coverage type="line, %" value="63%  (448.2/706)"/>
+        <coverage type="block, %" value="74%  (2676/3633)"/>
+        <coverage type="line, %" value="63%  (447.2/706)"/>
 
         <srcfile name="Tag.java">
           <coverage type="class, %" value="0%   (0/2)"/>
@@ -2105,14 +2105,14 @@
         <srcfile name="SpotInstanceRequest.java">
           <coverage type="class, %" value="100% (4/4)"/>
           <coverage type="method, %" value="71%  (41/58)"/>
-          <coverage type="block, %" value="80%  (858/1068)"/>
-          <coverage type="line, %" value="68%  (145.6/215)"/>
+          <coverage type="block, %" value="80%  (856/1068)"/>
+          <coverage type="line, %" value="67%  (144.6/215)"/>
 
           <class name="SpotInstanceRequest">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="43%  (10/23)"/>
-            <coverage type="block, %" value="74%  (529/713)"/>
-            <coverage type="line, %" value="60%  (85.6/143)"/>
+            <coverage type="block, %" value="74%  (527/713)"/>
+            <coverage type="line, %" value="59%  (84.6/143)"/>
 
             <method name="compareTo (SpotInstanceRequest): int">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -2181,8 +2181,8 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="57%  (154/268)"/>
-              <coverage type="line, %" value="49%  (41/84)"/>
+              <coverage type="block, %" value="57%  (152/268)"/>
+              <coverage type="line, %" value="48%  (40/84)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
