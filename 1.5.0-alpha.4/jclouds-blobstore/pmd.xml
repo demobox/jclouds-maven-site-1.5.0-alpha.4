@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.2.5" timestamp="2012-04-24T09:52:45.541">
+<pmd version="4.2.5" timestamp="2012-04-24T21:45:57.296">
 <file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.4-deploy/blobstore/src/main/java/org/jclouds/blobstore/BlobStoreContextFactory.java">
 <violation beginline="51" endline="52" begincolumn="11" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.blobstore" class="BlobStoreContextFactory" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
 Avoid unused constructor parameters such as 'properties'.
