@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.2.5" timestamp="2012-04-24T13:53:43.915">
+<pmd version="4.2.5" timestamp="2012-04-25T05:40:23.365">
 <file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.4-deploy/providers/slicehost/src/main/java/org/jclouds/slicehost/handlers/ParseSlicehostErrorFromHttpResponse.java">
 <violation beginline="123" endline="124" begincolumn="12" endcolumn="10" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.slicehost.handlers" class="ParseSlicehostErrorFromHttpResponse" method="parseErrorFromContentOrNull" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
 Avoid empty catch blocks
